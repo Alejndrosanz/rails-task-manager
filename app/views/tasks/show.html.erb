@@ -1,0 +1,7 @@
+<h1 class="m-4"><%= @task.title %></h1>
+<p><strong><%= @task.details %></strong></p>
+<p>The task is not completed yet</p>
+<div class="d-flex justify-content-center m-4">
+<button class="btn btn-outline-info"><%= link_to "Edit Task!", edit_task_path%></button>
+<%= link_to "Back to list!", tasks_path%>
+</div>

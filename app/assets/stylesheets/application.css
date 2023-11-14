@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+ @import "font-awesome";
+
+
+ body {
+  background-color: #F1ffff;
+  border: 2px solid #1084F8;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #1084F8;
+  height: 655px;
+  margin: 10px 10px;
+ }
+ h1, li {
+  text-align: center;
+ }
+a {
+  text-decoration: none;
+  padding: 0 30px;
+  color: #1084F8;
+}
+form {
+  padding: 50px;
+}
+p {
+  text-align: center;
+  margin: 50px 0;
+}
+input .submit {
+  color: #1084F8;
+}
